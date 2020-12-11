@@ -1,0 +1,1 @@
+web: gunicorn meteorite_landings_app.wsgi
