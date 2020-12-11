@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 django-rest-auth = "*"
 django-allauth = "*"
+django-import-export = "*"
 
 [dev-packages]
 
