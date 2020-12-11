@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'rest_auth.registration',
-#    'django-import-export',
+    'django-import-export',
 #    'import_export',
 #    'herokuapp'
 ]
@@ -100,7 +100,7 @@ DATABASES = {
     }
 }
 
-#password validation
+# password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
