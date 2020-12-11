@@ -92,15 +92,15 @@ WSGI_APPLICATION = 'meteorite_landings_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'meteoritesdb',
-        'USER': 'meteoritesdb_user',
-        'PASSWORD': 'mypass',
-        'HOST': '127.0.0.1',
+        'NAME': 'd504bf3b8tpd8s',
+        'USER': 'ftnerrdoondxra',
+        'PASSWORD': '9d4f991c24b298e1dbab82b53dc6b1fdf630e482115ed5fa086573099060b2ee',
+        'HOST': 'ec2-54-159-107-189.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
-
-# Password validation
+#password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
