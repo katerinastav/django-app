@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'rest_auth.registration',
     'import_export',
+#    'herokuapp'
 ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
@@ -148,3 +149,7 @@ REST_FRAMEWORK = {
 }
 
 IMPORT_EXPORT_USE_TRANSACTIONS = True
+
+# Configure Django App for Heroku.
+#import django_heroku
+#django_heroku.settings(locals())
