@@ -9,6 +9,7 @@ djangorestframework = "*"
 django-rest-auth = "*"
 django-allauth = "*"
 django-import-export = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
