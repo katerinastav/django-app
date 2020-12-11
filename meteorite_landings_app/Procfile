@@ -1,1 +1,1 @@
-web: gunicorn meteorite_landings_app.wsgi
+web: gunicorn meteorite_landings_app.wsgi --log-file -
