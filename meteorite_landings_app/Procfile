@@ -1,2 +1,2 @@
-#web: gunicorn meteorite_landings_app.wsgi --log-file -
-web: python manage.py runserver http://mysterious-reaches-83416.herokuapp.com/
+web: gunicorn meteorite_landings_app.wsgi --log-file -
+#web: python manage.py runserver http://mysterious-reaches-83416.herokuapp.com/
